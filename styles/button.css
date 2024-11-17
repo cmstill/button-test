@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(29, 45, 68);
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#hover {
+	display: block;
+	background-color: transparent;
+	color: rgb(250, 163, 7);
+	font-size: 1.2em;
+	margin: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(250, 163, 7);
+	border-image: initial;
+	border-radius: 2px;
+	padding: 1em 2em;
+	transition: 0.25s;
+}
